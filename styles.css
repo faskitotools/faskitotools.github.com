@@ -1,1 +1,96 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Estilos para la sección de hero */
+#hero {
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* Estilos para las características */
+#features {
+  padding: 40px 0;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.feature img {
+  max-width: 200px;
+}
+
+/* Estilos para las reseñas */
+#reviews {
+  padding: 40px 0;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.review img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+/* Estilos para la sección de descarga */
+#download {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  padding-top: 40px;
+}
 
