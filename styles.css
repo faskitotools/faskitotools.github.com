@@ -1,96 +1,101 @@
-/* Estilos generales */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Estilos para el encabezado */
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-}
-
-/* Estilos para la sección de hero */
-#hero {
-  text-align: center;
-  padding: 40px 0;
-}
-
-/* Estilos para las características */
-#features {
-  padding: 40px 0;
-}
-
-.feature {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.feature img {
-  max-width: 200px;
-}
-
-/* Estilos para las reseñas */
-#reviews {
-  padding: 40px 0;
-}
-
-.review {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.review img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-}
-
-/* Estilos para la sección de descarga */
-#download {
-  text-align: center;
-  padding: 40px 0;
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-/* Estilos para el pie de página */
-footer {
-  text-align: center;
-  padding-top: 40px;
-}
-
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url('path/to/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Features section styles */
+  .features {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .feature i {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #fff;
+  }
+  
